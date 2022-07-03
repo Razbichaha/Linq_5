@@ -50,7 +50,7 @@ namespace Linq_5
             ShowListPlayer(expiredProduct.ToList());
         }
 
-        private void ShowListPlayer(List<Stew> stews)
+        private void ShowListStews(List<Stew> stews)
         {
             foreach (Stew player in stews)
             {
