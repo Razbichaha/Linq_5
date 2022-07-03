@@ -47,7 +47,7 @@ namespace Linq_5
         {
             var expiredProduct = from product in _stews where product.BestBeforeDate + product.DateManufacture < presentYear select product;
 
-            ShowListPlayer(expiredProduct.ToList());
+            ShowListStews(expiredProduct.ToList());
         }
 
         private void ShowListStews(List<Stew> stews)
